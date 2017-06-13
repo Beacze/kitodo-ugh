@@ -1344,7 +1344,7 @@ public class MetsMods implements ugh.dl.Fileformat {
                     this.getDigitalDocument().setLogicalDocStruct(origen);
                 } catch (ReadException canBeThrownDirectly) {
                     throw canBeThrownDirectly ;
-                } catch (UGHException|IndexOutOfBoundsException wrappedException) {
+                } catch (UGHException | IndexOutOfBoundsException wrappedException) {
                     String reason = wrappedException.getClass().getSimpleName();
                     if (wrappedException.getMessage() != null) {
                         reason += ": " + wrappedException.getMessage();

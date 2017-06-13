@@ -9,7 +9,6 @@ import ugh.dl.DigitalDocument;
 
 public class Validators {
 
-
     public Boolean getEqualsValidation(DigitalDocument digDoc1, DigitalDocument digDoc2){
         return digDoc1.equals(digDoc2);
     }

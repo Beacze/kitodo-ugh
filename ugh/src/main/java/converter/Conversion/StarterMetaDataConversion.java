@@ -1,5 +1,10 @@
 package converter.Conversion;
 
+import converter.logger.Commit;
+import converter.logger.Filesave;
+import converter.logger.Rollback;
+import converter.logger.UGH;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,11 +22,6 @@ import ugh.dl.Prefs;
 import ugh.exceptions.ReadException;
 import ugh.fileformats.excel.RDFFile;
 import ugh.fileformats.mets.MetsMods;
-
-import converter.logger.Commit;
-import converter.logger.Filesave;
-import converter.logger.Rollback;
-import converter.logger.UGH;
 
 @SuppressWarnings("deprecation")
 public class StarterMetaDataConversion {

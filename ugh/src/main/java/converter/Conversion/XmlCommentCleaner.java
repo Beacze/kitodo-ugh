@@ -15,7 +15,6 @@ import org.jdom.output.XMLOutputter;
 
 public class XmlCommentCleaner {
 
-
     public void cleanCommentsFromXmlFile(File inFile, File outFile) throws JDOMException, IOException {
         /* --------------------------------
          * read inFile and remove most upper xml-comment if it exists

@@ -12,7 +12,6 @@ import org.jdom.output.XMLOutputter;
 
 public class StarterRulesetMerging {
 
-
     protected final Logger logger = LogManager.getLogger(StarterRulesetMerging.class);
 
     static SlubReader sr = null;
